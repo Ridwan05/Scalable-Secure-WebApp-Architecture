@@ -10,7 +10,9 @@
 ![AWS_Network_Diagram](Scalable-WebApp.png)  
 
 #### Subnet1, Subnet2 & Subnet3 are public subnets while Subnet4, Subnet5 & Subnet6 are private.
-#### EC2 instances are placed in public subnets while the private subnets are designated to the RDS
+#### Autoscaling group is set up to launch EC2 instances that would host the webapp to the public subnets while the private subnets are designated to the RDS
+#### The instance would accept http(s) traffic from the loadbalancer only
+#### The loadbalance is set up to allow http(s) from the internet.
 
 ## Prerequisites
 - vscode
