@@ -383,7 +383,7 @@ resource "aws_security_group" "elbweb_access" {
 
 ```  
 
-- Create security for the RDS to allow access from within the VPC to the RDS  
+- Copy this script into network.tf to create security for the RDS and allow access from within the VPC to the RDS  
 
 ```
 
@@ -488,7 +488,7 @@ EOF
 
 ```  
 
-- Copy the follweing scripts into autoscaling.tf to create launch template  
+- Copy the following scripts into autoscaling.tf to create launch template  
 
 ``` 
 
@@ -505,7 +505,7 @@ resource "aws_launch_template" "webapptemplate" {
 
 ```  
 
-- Copy the follweing scripts into autoscaling.tf to create autoscaling group  
+- Copy the following scripts into autoscaling.tf to create autoscaling group  
 
 ``` 
 
@@ -585,7 +585,7 @@ output "alb-dns" {
 
 ```
 
-7. Provision the resources
+## Provision the resources
 - Change directory the root dir
 - do _terraform init_
 - do _terraform fmt_
