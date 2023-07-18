@@ -9,6 +9,7 @@
 
 ![AWS_Network_Diagram](Scalable-WebApp.png)  
 
+#### We would have 1 public subnet and 1 private subnet in each availability zone
 #### Subnet1, Subnet2 & Subnet3 are public subnets while Subnet4, Subnet5 & Subnet6 are private.
 #### Autoscaling group is set up to launch EC2 instances that would host the webapp to the public subnets while the private subnets are designated to the RDS
 #### The instance would accept http(s) traffic from the loadbalancer only
