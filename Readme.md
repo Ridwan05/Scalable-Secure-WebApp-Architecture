@@ -615,7 +615,7 @@ terraform {
 ```
 
 #### Configure remote backend
-- do _terraform init -configure_ and enter yes to proceed
+- do _terraform init -reconfigure_ and enter yes to proceed
 - do _terraform plan_
 - do _terraform apply_
 
