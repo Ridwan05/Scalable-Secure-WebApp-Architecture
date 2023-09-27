@@ -1,5 +1,5 @@
 # Scalable and Secure Web Application Architecture with Terraform
-## In this project, I used terraform to provisioned AWS infastructures for a Scalable and Secure Web Application. The infrastuctures include:
+## In this project, I used terraform to provisioned AWS infrastructures for a Scalable and Secure Web Application. The infrastructures include:
 - Network (VPC, internet-gatway, NAT-gatway, route-table and Subnets)
 - EC2 intances in autoscaling Group
 - Load Balancer
